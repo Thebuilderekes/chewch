@@ -129,6 +129,7 @@ h3 {
   padding-top: 20px;
   color: whitesmoke;
   font-family: "Eagle Lake", cursive;
+  font-size: 20px;
 }
 
 .flex-header {
@@ -750,6 +751,7 @@ p {
 
 .main-footer .social-links .menu-links li {
   margin-bottom: 10px;
+  font-family: "Lato";
 }
 
 .ionicon {
@@ -1489,6 +1491,7 @@ p {
     height: 24rem;
     background-color: #1a1a19;
     font-family: Roboto, sans-serif;
+    position: absolute;
   }
 
   .main-footer .social-links ul {
@@ -1530,6 +1533,7 @@ p {
 
   .main-footer .social-links .menu-links li {
     margin-bottom: 10px;
+    font-family: "Lato";
   }
 
   .ionicon {
@@ -2261,6 +2265,7 @@ p {
     height: 24rem;
     background-color: #1a1a19;
     font-family: Roboto, sans-serif;
+    position: absolute;
   }
 
   .main-footer .social-links ul {
@@ -2302,6 +2307,7 @@ p {
 
   .main-footer .social-links .menu-links li {
     margin-bottom: 10px;
+    font-family: "Lato";
   }
 
   .ionicon {
@@ -2517,31 +2523,17 @@ p {
     font-size: 30px;
     font-weight: bold;
   }
-  .jumbo-box {
-    margin-top: 30px;
-    width: 100%;
-  }
-  .pre-jumbo {
-    width: 10%;
-  }
-  .jumbotron {
-    width: 80%;
-  }
-  .post-jumbo {
-    width: 10%;
-  }
-  .jumbotron p {
-    font-size: 16px;
-  }
+
   .carousel-inner {
     height: 250px;
   }
   .main-footer {
     width: 100%;
     height: 45rem;
+    position: absolute;
   }
   h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
   p {
     font-size: 16px;
@@ -2740,31 +2732,17 @@ p {
     font-size: 30px;
     font-weight: bold;
   }
-  .jumbo-box {
-    margin-top: 30px;
-    width: 100%;
-  }
-  .pre-jumbo {
-    width: 10%;
-  }
-  .jumbotron {
-    width: 80%;
-  }
-  .post-jumbo {
-    width: 10%;
-  }
-  .jumbotron p {
-    font-size: 16px;
-  }
+
   .carousel-inner {
     height: 250px;
   }
   .main-footer {
     width: 100%;
     height: 45rem;
+    position: absolute;
   }
   h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
   p {
     font-size: 16px;
@@ -2944,31 +2922,17 @@ p {
     margin: 20px 0;
     width: 100%;
   }
-  .jumbo-box {
-    margin-top: 30px;
-    width: 100%;
-  }
-  .pre-jumbo {
-    width: 10%;
-  }
-  .jumbotron {
-    width: 80%;
-  }
-  .post-jumbo {
-    width: 10%;
-  }
-  .jumbotron p {
-    font-size: 16px;
-  }
+
   .carousel-inner {
     height: 250px;
   }
   .main-footer {
     width: 100%;
     height: 45rem;
+    position: absolute;
   }
   h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
   p {
     font-size: 16px;
@@ -3155,31 +3119,17 @@ p {
     font-size: 30px;
     font-weight: bold;
   }
-  .jumbo-box {
-    margin-top: 30px;
-    width: 100%;
-  }
-  .pre-jumbo {
-    width: 10%;
-  }
-  .jumbotron {
-    width: 80%;
-  }
-  .post-jumbo {
-    width: 10%;
-  }
-  .jumbotron p {
-    font-size: 16px;
-  }
+
   .carousel-inner {
     height: 250px;
   }
   .main-footer {
     width: 100%;
     height: 45rem;
+    position: absolute;
   }
   h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
   p {
     font-size: 16px;
@@ -3366,31 +3316,17 @@ p {
     font-size: 30px;
     font-weight: bold;
   }
-  .jumbo-box {
-    margin-top: 30px;
-    width: 100%;
-  }
-  .pre-jumbo {
-    width: 10%;
-  }
-  .jumbotron {
-    width: 80%;
-  }
-  .post-jumbo {
-    width: 10%;
-  }
-  .jumbotron p {
-    font-size: 16px;
-  }
+
   .carousel-inner {
     height: 250px;
   }
   .main-footer {
     width: 100%;
     height: 45rem;
+    position: absolute;
   }
   h3 {
-    font-size: 22px;
+    font-size: 18px;
   }
   p {
     font-size: 16px;
@@ -3584,28 +3520,14 @@ p {
     font-size: 30px;
     font-weight: bold;
   }
-  .jumbo-box {
-    margin-top: 30px;
-    width: 100%;
-  }
-  .pre-jumbo {
-    width: 10%;
-  }
-  .jumbotron {
-    width: 80%;
-  }
-  .post-jumbo {
-    width: 10%;
-  }
-  .jumbotron p {
-    font-size: 16px;
-  }
+
   .carousel-inner {
     height: 250px;
   }
   .main-footer {
     width: 100%;
     height: 45rem;
+    position: absolute;
   }
   h3 {
     font-size: 18px;
