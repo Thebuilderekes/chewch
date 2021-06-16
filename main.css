@@ -345,7 +345,7 @@ header .flex-header .hero-text .button-primary:hover {
 --------------------------------------------------------------*/
 .gallery {
   overflow: hidden;
-  background-image: url(/images/lemon_slice_pattern_background\ -\ Copy.jpg);
+  background-image: url(images/lemon_slice_pattern_background\ -\ Copy.jpg);
   background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
