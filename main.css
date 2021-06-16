@@ -345,7 +345,8 @@ header .flex-header .hero-text .button-primary:hover {
 --------------------------------------------------------------*/
 .gallery {
   overflow: hidden;
-  background-color: #ffffff;
+  background-image: url(/images/lemon_slice_pattern_background\ -\ Copy.jpg);
+  background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
   overflow: hidden;
@@ -417,12 +418,16 @@ header .flex-header .hero-text .button-primary:hover {
   background: #fff;
   z-index: 1;
 }
+
+.about-us-section {
+  background-color: #ffffff;
+}
 /*-------------------------------------------- */
 /*            services area starts                   */
 /*---------------------------------------------*/
 .our-services {
-  background-color: #fffea8;
-  margin: 0;
+  background: rgb(250,208,0);
+  background: radial-gradient(circle, rgba(250,208,0,1) 0%, rgba(229,205,35,1) 100%);
   width: 100%;
 }
 
@@ -430,7 +435,6 @@ header .flex-header .hero-text .button-primary:hover {
   text-align: center;
   color: black;
   font-weight: 700;
-  margin-top: 40px;
   padding-top: 50px;
 
   text-transform: uppercase;
@@ -464,21 +468,21 @@ header .flex-header .hero-text .button-primary:hover {
   font-weight: 500;
   color: #3a3838;
   font-size: 20px;
-  -webkit-animation-name: moveOutStill;
+  /* -webkit-animation-name: moveOutStill;
   animation-name: moveOutStill;
   -webkit-animation-duration: 3s;
   animation-duration: 3s;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-animation-timing-function: ease-in;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in; */
   font-family: "Lato";
   padding-bottom: 50px;
   line-height: 2;
 }
 
 .services-section {
-  background-color: #ffffff;
+  background-image: url(/images/lemon_slice_pattern_background\ -\ Copy.jpg);
   font-size: 18px;
   font-family: "Lato";
   display: -webkit-box;
@@ -490,9 +494,9 @@ header .flex-header .hero-text .button-primary:hover {
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
-
-  padding-bottom: 50px;
+ padding-bottom: 50px;
 }
+
 
 .services-section h3 {
   text-align: center;
@@ -758,6 +762,10 @@ p {
   width: 30px;
   height: 30px;
   fill: white;
+}
+
+.ionicon:hover {
+  transform: translateY(-5px);
 }
 
 .mt-5 {
@@ -1207,12 +1215,7 @@ p {
   /*-------------------------------------------- */
   /*            services area starts                   */
   /*---------------------------------------------*/
-  .our-services {
-    background-color: #fffea8;
-    margin: 0;
-    width: 100%;
-  }
-
+  
   .services-header,
   .about-header {
     text-align: center;
@@ -1983,8 +1986,8 @@ p {
   /*            services area starts                   */
   /*---------------------------------------------*/
   .our-services {
-    background-color: #fffea8;
-    margin: 0;
+    background: rgb(250,208,0);
+    background: radial-gradient(circle, rgba(250,208,0,1) 0%, rgba(229,205,35,1) 100%);
     width: 100%;
   }
 
@@ -1993,7 +1996,7 @@ p {
     text-align: center;
     color: black;
     font-weight: 700;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     padding-top: 50px;
     text-transform: uppercase;
     font-size: 24px;
