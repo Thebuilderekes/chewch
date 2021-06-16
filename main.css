@@ -201,7 +201,7 @@ header .flex-header .hero-text .button-primary:hover {
   transform: translateY(-5px);
 }
 
-.services-header,
+.pricing-header,
 .gallery-header,
 .about-header {
   font-family: "Lato";
@@ -441,7 +441,7 @@ header .flex-header .hero-text .button-primary:hover {
   font-size: 24px;
 }
 
-.services-header {
+.pricing-header {
   text-align: center;
   color: black;
   font-weight: 700;
@@ -451,7 +451,7 @@ header .flex-header .hero-text .button-primary:hover {
   text-transform: uppercase;
   font-size: 24px;
 }
-.services-header:after,
+.pricing-header:after,
 .about-header:after {
   display: block;
   height: 2px;
@@ -463,7 +463,7 @@ header .flex-header .hero-text .button-primary:hover {
   margin-bottom: 30px;
 }
 
-.services-text,
+.pricing-text,
 .about-text {
   font-weight: 500;
   color: #3a3838;
@@ -1216,7 +1216,7 @@ p {
   /*            services area starts                   */
   /*---------------------------------------------*/
   
-  .services-header,
+  .pricing-header,
   .about-header {
     text-align: center;
     color: black;
@@ -1228,7 +1228,7 @@ p {
     font-size: 24px;
   }
 
-  .services-header:after,
+  .pricing-header:after,
   .about-header:after {
     display: block;
     height: 2px;
@@ -1240,7 +1240,7 @@ p {
     margin-bottom: 30px;
   }
 
-  .services-text,
+  .pricing-text,
   .about-text {
     font-weight: 500;
     color: #3a3838;
@@ -1991,7 +1991,7 @@ p {
     width: 100%;
   }
 
-  .services-header,
+  .pricing-header,
   .about-header {
     text-align: center;
     color: black;
@@ -2002,7 +2002,7 @@ p {
     font-size: 24px;
   }
 
-  .services-header:after,
+  .pricing-header:after,
   .about-header:after {
     display: block;
     height: 2px;
@@ -2014,7 +2014,7 @@ p {
     margin-bottom: 30px;
   }
 
-  .services-text,
+  .pricing-text,
   .about-text {
     font-weight: 500;
     color: #3a3838;
@@ -2489,11 +2489,11 @@ p {
   .gallery {
     overflow: hidden;
   }
-  .services-header {
+  .pricing-header {
     color: black;
     font-size: 24px;
   }
-  .services-text {
+  .pricing-text {
     font-size: 20px;
     padding-bottom: 100px;
   }
@@ -2698,11 +2698,11 @@ p {
   .gallery {
     overflow: hidden;
   }
-  .services-header {
+  .pricing-header {
     color: black;
     font-size: 24px;
   }
-  .services-text {
+  .pricing-text {
     font-size: 20px;
     padding-bottom: 100px;
   }
@@ -2893,11 +2893,11 @@ p {
   .gallery {
     overflow: hidden;
   }
-  .services-header {
+  .pricing-header {
     color: black;
     font-size: 24px;
   }
-  .services-text {
+  .pricing-text {
     font-size: 20px;
     padding-bottom: 100px;
   }
@@ -3085,11 +3085,11 @@ p {
   .gallery {
     overflow: hidden;
   }
-  .services-header {
+  .pricing-header {
     color: black;
     font-size: 24px;
   }
-  .services-text {
+  .pricing-text {
     font-size: 20px;
     padding-bottom: 100px;
   }
@@ -3282,11 +3282,11 @@ p {
   .gallery {
     overflow: hidden;
   }
-  .services-header {
+  .pricing-header {
     color: black;
     font-size: 24px;
   }
-  .services-text {
+  .pricing-text {
     font-size: 20px;
     padding-bottom: 100px;
   }
@@ -3486,11 +3486,11 @@ p {
   .gallery {
     overflow: hidden;
   }
-  .services-header {
+  .pricing-header {
     color: black;
     font-size: 24px;
   }
-  .services-text {
+  .pricing-text {
     font-size: 20px;
     padding-bottom: 100px;
   }
