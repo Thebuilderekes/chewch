@@ -125,12 +125,6 @@ a.button-primary {
   color: #201e1e;
 }
 
-h3 {
-  padding-top: 20px;
-  color: whitesmoke;
-  font-family: "Eagle Lake", cursive;
-  font-size: 20px;
-}
 
 .flex-header {
   position: relative;
@@ -138,11 +132,19 @@ h3 {
   height: 600px;
   display: flex;
   justify-content: space-around;
+
 }
 
 .flex-header .hero-image {
   width: 50%;
+  background-color: rgba(15, 15, 13, 0.452);
 }
+
+
+.flex-header .hero-image img{
+  mix-blend-mode: darken;
+}
+
 
 .flex-header .hero-text {
   width: 50%;
@@ -423,9 +425,9 @@ header .flex-header .hero-text .button-primary:hover {
   background-color: #ffffff;
 }
 /*-------------------------------------------- */
-/*            services area starts                   */
+/*            pricing area starts                   */
 /*---------------------------------------------*/
-.our-services {
+.pricing {
   background: rgb(250,208,0);
   background: radial-gradient(circle, rgba(250,208,0,1) 0%, rgba(229,205,35,1) 100%);
   width: 100%;
@@ -481,7 +483,7 @@ header .flex-header .hero-text .button-primary:hover {
   line-height: 2;
 }
 
-.services-section {
+.pricing-section {
   background-image: url(images/lemon_slice_pattern_background\ -\ Copy.jpg);
   font-size: 18px;
   font-family: "Lato";
@@ -498,18 +500,18 @@ header .flex-header .hero-text .button-primary:hover {
 }
 
 
-.services-section h3 {
+.pricing-section h3 {
   text-align: center;
   margin: auto;
   color: black;
   font-weight: 500;
 }
 
-.services-section .paragraph {
+.pricing-section .paragraph {
   font-weight: 700;
 }
 
-.services-section .comboyam-section {
+.pricing-section .comboyam-section {
   background-color: #ecf00a;
   -webkit-animation-name: moveOut;
   animation-name: moveOut;
@@ -527,16 +529,16 @@ header .flex-header .hero-text .button-primary:hover {
   backface-visibility: hidden;
 }
 
-.services-section .comboyam-section:hover {
+.pricing-section .comboyam-section:hover {
   top: -10px;
 }
 
-.services-section img {
+.pricing-section img {
   width: 100%;
   padding: 30px;
 }
 
-.services-section .fisherman-section {
+.pricing-section .fisherman-section {
   background-color: #ecf00a;
   -webkit-animation-name: moveOut;
   animation-name: moveOut;
@@ -554,11 +556,11 @@ header .flex-header .hero-text .button-primary:hover {
   backface-visibility: hidden;
 }
 
-.services-section .fisherman-section:hover {
+.pricing-section .fisherman-section:hover {
   top: -10px;
 }
 
-.services-section .yellowsoup-section {
+.pricing-section .yellowsoup-section {
   background-color: #ecf00a;
   -webkit-animation-name: moveOut;
   animation-name: moveOut;
@@ -576,11 +578,11 @@ header .flex-header .hero-text .button-primary:hover {
   backface-visibility: hidden;
 }
 
-.services-section .yellowsoup-section:hover {
+.pricing-section .yellowsoup-section:hover {
   top: -10px;
 }
 
-.services-section .comboyam-section {
+.pricing-section .comboyam-section {
   background-color: #ecf00a;
   -webkit-animation-name: moveOut;
   animation-name: moveOut;
@@ -598,11 +600,11 @@ header .flex-header .hero-text .button-primary:hover {
   backface-visibility: hidden;
 }
 
-.services-section .comboyam-section:hover {
+.pricing-section .comboyam-section:hover {
   top: -10px;
 }
 
-.services-section .fisherman-section {
+.pricing-section .fisherman-section {
   background-color: #ecf00a;
   -webkit-animation-name: moveOut;
   animation-name: moveOut;
@@ -620,11 +622,11 @@ header .flex-header .hero-text .button-primary:hover {
   backface-visibility: hidden;
 }
 
-.services-section .fisherman-section:hover {
+.pricing-section .fisherman-section:hover {
   top: -10px;
 }
 
-.services-section .yellowsoup2-section {
+.pricing-section .yellowsoup2-section {
   background-color: #ecf00a;
   -webkit-animation-name: moveOut;
   animation-name: moveOut;
@@ -642,7 +644,7 @@ header .flex-header .hero-text .button-primary:hover {
   backface-visibility: hidden;
 }
 
-.services-section .yellowsoup2-section:hover {
+.pricing-section .yellowsoup2-section:hover {
   top: -10px;
 }
 
@@ -657,7 +659,7 @@ p {
 }
 
 /*-------------------------------------------- */
-/*               Services area end             */
+/*               pricing area end             */
 /*---------------------------------------------*/
 /*--------------------------------------------------------------
 # Gallery
@@ -933,10 +935,7 @@ p {
     color: #201e1e;
   }
 
-  h3 {
-    color: whitesmoke;
-  }
-
+  
   .flex-header {
     position: relative;
     width: 100%;
@@ -952,7 +951,7 @@ p {
   .flex-header .hero-text {
     width: 50%;
     color: #201e1e;
-    background: rgb(12, 26, 31);
+    background: #0c1a1f;
     background: radial-gradient(
       circle,
       rgba(12, 26, 31, 1) 0%,
@@ -1213,7 +1212,7 @@ p {
     z-index: 1;
   }
   /*-------------------------------------------- */
-  /*            services area starts                   */
+  /*            pricing area starts                   */
   /*---------------------------------------------*/
   
   .pricing-header,
@@ -1258,7 +1257,7 @@ p {
     line-height: 2;
   }
 
-  .services-section {
+  .pricing-section {
     background-color: #ffffff;
     font-size: 18px;
     font-family: "Lato";
@@ -1278,7 +1277,7 @@ p {
     padding-bottom: 50px;
   }
 
-  .services-section h3 {
+  .pricing-section h3 {
     text-align: center;
     margin: auto;
     padding-top: 25px;
@@ -1286,12 +1285,12 @@ p {
     font-weight: 500;
   }
 
-  .services-section .paragraph {
+  .pricing-section .paragraph {
     font-size: 24px;
     font-weight: 700;
   }
 
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     background-color: #ecf00a;
     -webkit-animation-name: moveOut;
     animation-name: moveOut;
@@ -1309,16 +1308,16 @@ p {
     backface-visibility: hidden;
   }
 
-  .services-section .comboyam-section:hover {
+  .pricing-section .comboyam-section:hover {
     top: -10px;
   }
 
-  .services-section img {
+  .pricing-section img {
     width: 100%;
     padding: 30px;
   }
 
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     background-color: #ecf00a;
     -webkit-animation-name: moveOut;
     animation-name: moveOut;
@@ -1336,11 +1335,11 @@ p {
     backface-visibility: hidden;
   }
 
-  .services-section .fisherman-section:hover {
+  .pricing-section .fisherman-section:hover {
     top: -10px;
   }
 
-  .services-section .yellowsoup-section {
+  .pricing-section .yellowsoup-section {
     background-color: #ecf00a;
     -webkit-animation-name: moveOut;
     animation-name: moveOut;
@@ -1358,11 +1357,11 @@ p {
     backface-visibility: hidden;
   }
 
-  .services-section .yellowsoup-section:hover {
+  .pricing-section .yellowsoup-section:hover {
     top: -10px;
   }
 
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     background-color: #ecf00a;
     -webkit-animation-name: moveOut;
     animation-name: moveOut;
@@ -1380,11 +1379,11 @@ p {
     backface-visibility: hidden;
   }
 
-  .services-section .comboyam-section:hover {
+  .pricing-section .comboyam-section:hover {
     top: -10px;
   }
 
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     background-color: #ecf00a;
     -webkit-animation-name: moveOut;
     animation-name: moveOut;
@@ -1402,11 +1401,11 @@ p {
     backface-visibility: hidden;
   }
 
-  .services-section .fisherman-section:hover {
+  .pricing-section .fisherman-section:hover {
     top: -10px;
   }
 
-  .services-section .yellowsoup2-section {
+  .pricing-section .yellowsoup2-section {
     background-color: #ecf00a;
     -webkit-animation-name: moveOut;
     animation-name: moveOut;
@@ -1424,7 +1423,7 @@ p {
     backface-visibility: hidden;
   }
 
-  .services-section .yellowsoup2-section:hover {
+  .pricing-section .yellowsoup2-section:hover {
     top: -10px;
   }
 
@@ -1439,7 +1438,7 @@ p {
   }
 
   /*-------------------------------------------- */
-  /*               Services area end             */
+  /*               pricing area end             */
   /*---------------------------------------------*/
   /*--------------------------------------------------------------
 # Gallery
@@ -1697,7 +1696,7 @@ p {
     font-family: "Eagle Lake", cursive;
     margin: 30px 0 0 30px;
     color: #ecf00a;
-
+  font-size: 24px;
     text-decoration: none;
   }
 
@@ -1752,14 +1751,14 @@ p {
   header .hero-text_primary .hero-text_primary_sub {
     font-family: "Lobster", cursive;
     color: #f1f383;
-    font-size: 30px;
+    font-size: 24px;
   }
 
   header .hero-text .button-primary {
     color: #201e1e;
     background-color: #ecf00a;
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 33%;
 
     font-size: 24px;
@@ -1979,13 +1978,13 @@ p {
     margin: -10px;
     box-sizing: content-box;
     padding: 4px;
-    background: #fff;
-    z-index: 1;
+    background: #ffffff;
+    z-index: 10;
   }
   /*-------------------------------------------- */
-  /*            services area starts                   */
+  /*            pricing area starts                   */
   /*---------------------------------------------*/
-  .our-services {
+  .pricing {
     background: rgb(250,208,0);
     background: radial-gradient(circle, rgba(250,208,0,1) 0%, rgba(229,205,35,1) 100%);
     width: 100%;
@@ -2032,7 +2031,7 @@ p {
     line-height: 2;
   }
 
-  .services-section {
+  .pricing-section {
     background-color: #ffffff;
     font-size: 18px;
     font-family: "Lato";
@@ -2052,7 +2051,7 @@ p {
     padding-bottom: 50px;
   }
 
-  .services-section h3 {
+  .pricing-section h3 {
     text-align: center;
     margin: auto;
     padding-top: 25px;
@@ -2060,12 +2059,12 @@ p {
     font-weight: 500;
   }
 
-  .services-section .paragraph {
+  .pricing-section .paragraph {
     font-size: 24px;
     font-weight: 700;
   }
 
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     background-color: #ecf00a;
     -webkit-animation-name: moveOut;
     animation-name: moveOut;
@@ -2083,16 +2082,16 @@ p {
     backface-visibility: hidden;
   }
 
-  .services-section .comboyam-section:hover {
+  .pricing-section .comboyam-section:hover {
     top: -10px;
   }
 
-  .services-section img {
+  .pricing-section img {
     width: 100%;
     padding: 30px;
   }
 
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     background-color: #ecf00a;
     -webkit-animation-name: moveOut;
     animation-name: moveOut;
@@ -2110,11 +2109,11 @@ p {
     backface-visibility: hidden;
   }
 
-  .services-section .fisherman-section:hover {
+  .pricing-section .fisherman-section:hover {
     top: -10px;
   }
 
-  .services-section .yellowsoup-section {
+  .pricing-section .yellowsoup-section {
     background-color: #ecf00a;
     -webkit-animation-name: moveOut;
     animation-name: moveOut;
@@ -2132,11 +2131,11 @@ p {
     backface-visibility: hidden;
   }
 
-  .services-section .yellowsoup-section:hover {
+  .pricing-section .yellowsoup-section:hover {
     top: -10px;
   }
 
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     background-color: #ecf00a;
     -webkit-animation-name: moveOut;
     animation-name: moveOut;
@@ -2154,11 +2153,11 @@ p {
     backface-visibility: hidden;
   }
 
-  .services-section .comboyam-section:hover {
+  .pricing-section .comboyam-section:hover {
     top: -10px;
   }
 
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     background-color: #ecf00a;
     -webkit-animation-name: moveOut;
     animation-name: moveOut;
@@ -2176,11 +2175,11 @@ p {
     backface-visibility: hidden;
   }
 
-  .services-section .fisherman-section:hover {
+  .pricing-section .fisherman-section:hover {
     top: -10px;
   }
 
-  .services-section .yellowsoup2-section {
+  .pricing-section .yellowsoup2-section {
     background-color: #ecf00a;
     -webkit-animation-name: moveOut;
     animation-name: moveOut;
@@ -2198,7 +2197,7 @@ p {
     backface-visibility: hidden;
   }
 
-  .services-section .yellowsoup2-section:hover {
+  .pricing-section .yellowsoup2-section:hover {
     top: -10px;
   }
 
@@ -2213,7 +2212,7 @@ p {
   }
 
   /*-------------------------------------------- */
-  /*               Services area end             */
+  /*               pricing area end             */
   /*---------------------------------------------*/
   /*--------------------------------------------------------------
 # Gallery
@@ -2394,7 +2393,7 @@ p {
   .flex-header .hero-text {
     width: 100%;
     margin-top: -1px;
-    background-color: rgba(105, 107, 3, 0.513);
+    background-color: #696b0383;
     z-index: 99;
     text-align: center;
   }
@@ -2481,7 +2480,7 @@ p {
     font-size: 24px;
   }
 
-  .services-section {
+  .pricing-section {
     display: flex;
     flex-direction: column;
   }
@@ -2497,27 +2496,27 @@ p {
     font-size: 20px;
     padding-bottom: 100px;
   }
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     margin: 0 0 20px 0;
     width: 100%;
   }
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .yellowsoup-section {
+  .pricing-section .yellowsoup-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .yellowsoup2-section {
+  .pricing-section .yellowsoup2-section {
     margin: 20px 0;
     width: 100%;
   }
@@ -2535,9 +2534,7 @@ p {
     height: 45rem;
     position: absolute;
   }
-  h3 {
-    font-size: 20px;
-  }
+
   p {
     font-size: 16px;
   }
@@ -2588,7 +2585,7 @@ p {
   .flex-header .hero-text {
     width: 100%;
     margin-top: -1px;
-    background-color: rgba(105, 107, 3, 0.513);
+    background-color: #696b0383;
     z-index: 99;
     text-align: center;
   }
@@ -2690,7 +2687,7 @@ p {
     font-size: 24px;
   }
 
-  .services-section {
+  .pricing-section {
     display: flex;
     flex-direction: column;
   }
@@ -2706,27 +2703,27 @@ p {
     font-size: 20px;
     padding-bottom: 100px;
   }
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     margin: 0 0 20px 0;
     width: 100%;
   }
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .yellowsoup-section {
+  .pricing-section .yellowsoup-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .yellowsoup2-section {
+  .pricing-section .yellowsoup2-section {
     margin: 20px 0;
     width: 100%;
   }
@@ -2798,7 +2795,7 @@ p {
   .flex-header .hero-text {
     width: 100%;
     margin-top: -1px;
-    background-color: rgba(105, 107, 3, 0.513);
+    background-color: #696b0383;
     z-index: 99;
     text-align: center;
   }
@@ -2885,7 +2882,7 @@ p {
     font-size: 24px;
   }
 
-  .services-section {
+  .pricing-section {
     display: flex;
     flex-direction: column;
   }
@@ -2901,27 +2898,27 @@ p {
     font-size: 20px;
     padding-bottom: 100px;
   }
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     margin: 0 0 20px 0;
     width: 100%;
   }
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .yellowsoup-section {
+  .pricing-section .yellowsoup-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .yellowsoup2-section {
+  .pricing-section .yellowsoup2-section {
     margin: 20px 0;
     width: 100%;
   }
@@ -3077,7 +3074,7 @@ p {
     font-size: 24px;
   }
 
-  .services-section {
+  .pricing-section {
     display: flex;
     flex-direction: column;
   }
@@ -3093,27 +3090,27 @@ p {
     font-size: 20px;
     padding-bottom: 100px;
   }
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     margin: 0 0 20px 0;
     width: 100%;
   }
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .yellowsoup-section {
+  .pricing-section .yellowsoup-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .yellowsoup2-section {
+  .pricing-section .yellowsoup2-section {
     margin: 20px 0;
     width: 100%;
   }
@@ -3274,7 +3271,7 @@ p {
     font-size: 24px;
   }
 
-  .services-section {
+  .pricing-section {
     display: flex;
     flex-direction: column;
   }
@@ -3290,27 +3287,27 @@ p {
     font-size: 20px;
     padding-bottom: 100px;
   }
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     margin: 0 0 20px 0;
     width: 100%;
   }
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .yellowsoup-section {
+  .pricing-section .yellowsoup-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .yellowsoup2-section {
+  .pricing-section .yellowsoup2-section {
     margin: 20px 0;
     width: 100%;
   }
@@ -3478,7 +3475,7 @@ p {
     font-size: 24px;
   }
 
-  .services-section {
+  .pricing-section {
     display: flex;
     flex-direction: column;
   }
@@ -3494,27 +3491,27 @@ p {
     font-size: 20px;
     padding-bottom: 100px;
   }
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     margin: 0 0 20px 0;
     width: 100%;
   }
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .yellowsoup-section {
+  .pricing-section .yellowsoup-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .comboyam-section {
+  .pricing-section .comboyam-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .fisherman-section {
+  .pricing-section .fisherman-section {
     margin: 20px 0;
     width: 100%;
   }
-  .services-section .yellowsoup2-section {
+  .pricing-section .yellowsoup2-section {
     margin: 20px 0;
     width: 100%;
   }
